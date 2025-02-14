@@ -39,7 +39,7 @@ export default function TaskManager() {
 
   return (
     <div className="max-w-lg mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Quản lý Công Việc</h1>
+      <h1 className="text-2xl font-bold mb-4">QLCV</h1>
       <div className="flex gap-2 mb-4">
         <Input value={newTask} onChange={(e) => setNewTask(e.target.value)} placeholder="Nhập công việc mới..." />
         <Button onClick={addTask}>Thêm</Button>
